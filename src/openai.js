@@ -1,8 +1,8 @@
 import OpenAI from "openai";
 
 const configuration = {
-  apiKey: "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",
-    dangerouslyAllowBrowser: true,
+  apiKey: "ApiKeyForChatGPT",
+  dangerouslyAllowBrowser: true,
 };
 const openai = new OpenAI(configuration);
 

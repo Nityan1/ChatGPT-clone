@@ -6,11 +6,11 @@ import home from "./assets/home.svg";
 import saved from "./assets/bookmark.svg";
 import rocket from "./assets/rocket.svg";
 import sendBtn from "./assets/send.svg";
-import userIcon from "./assets/user-icon.png";
+import userIcon from "./assets/usericon.png";
 import gptImgLogo from "./assets/chatgptLogo.svg";
 import { sendMsgToOpenAI } from "./openai";
 import { useState, useRef, useEffect } from "react";
-// import { Chat } from "openai/resources";
+// import { chat } from "openai/resources";
 
 function App() {
   const [input, setInput] = useState("");
